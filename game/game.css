@@ -1,0 +1,35 @@
+﻿html, body {
+	padding: 0;
+	margin: 0;
+}
+
+#wrap{
+	width: 800px;
+	height: 500 px;
+	background-color: green;
+}
+
+#header{
+	position: relative;
+}
+
+#score{
+	left: 0px;
+	top: 0px;
+}
+#timer{
+	right: 0px;
+	top: 0px;
+}
+
+.box {
+	position: absolute; /*지정하지 않으면 디폴트는 스태틱이며, 앱솔루트는 부모의 영향을 받는다.*/
+	width : 100px;
+	height: 100px;
+	border: 1px solid #fff;
+	padding: 0px;
+	margin: 0px;
+	background-color: blue;
+	color: #fff;
+	display: block;
+}
