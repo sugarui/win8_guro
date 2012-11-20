@@ -54,6 +54,7 @@ html, body {
 	background-color : pink;
 }
 */
+
 html, body { padding: 0; margin: 0; }
 #wrap {
 	width: 800px;
@@ -102,3 +103,4 @@ html, body { padding: 0; margin: 0; }
 	height: 50px;
 	background-color: #456245;
 }
+*/
